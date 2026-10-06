@@ -24,7 +24,25 @@
         </nav>
     </header>
     <main>
-        <div class="central-produtos"></div>
+        <form class="formulario">
+                <label for="email">E-mail:</label><br>
+                <input type="email" name="email" id="email" placeholder="exemplo@gmail.com"><br>
+                <label for="assunto">Assunto:</label><br>
+                <select name="assunto" id="ass">
+                    <option value="Selecione">Selecione o assunto:</option>
+                    <option value="devolucao">Quero fazer uma devolução.</option>
+                    <option value="promo">Promoções disponíveis.</option>
+                    <option value="Golpe">Passei por um golpe.</option>
+                    <option value="duvidas">Quero tirar dúvidas.</option>
+                    <option value="outro">Outro assunto.</option>
+                </select><br>
+                <label for="comente">Comente sobre sua solicitação:</label><br>
+                <textarea name="comente" id="comente" placeholder="Escreva aqui..."></textarea><br>
+                <fieldset>
+                    <input class="comente" type="submit">
+                    <input class="reset" type="reset" name="resetar" id="resetar">
+                </fieldset>
+        </form>
     </main>
 </body>
 </html>

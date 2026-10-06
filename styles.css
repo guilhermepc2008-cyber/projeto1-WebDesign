@@ -1,21 +1,18 @@
 :root {
+    --cor-moldura: #ffffff;
+    --cor-principal: #ffa30e;
+    --cor-cabecalho: #142d9d;
 
-    --cor-moldura: #FFFFFF;
-    --cor-principal: #FFA30E;
-    --cor-cabecalho: #142D9D;
-
-    --fonte-principal: 'Jomhuria', cursive;
-    --fonte-secundaria: 'Chivo Mono', monospace;
+    --fonte-principal: "Jomhuria", cursive;
+    --fonte-secundaria: "Chivo Mono", monospace;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
 }
-
-
-
 
 header {
     display: flex;
@@ -58,7 +55,6 @@ header {
         padding: 25px;
         justify-content: center;
 
-
         ol {
             list-style: none;
             margin-left: 47px;
@@ -86,8 +82,6 @@ header {
             }
         }
     }
-
-
 }
 
 .titulo {
@@ -104,79 +98,126 @@ body {
 }
 
 main {
-    
-}
+    .central-produtos {
+        margin-top: 20px;
+        background-color: var(--cor-moldura);
+        width: 100%;
+        max-width: 2000px;
+        min-height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 40px 30px;
+        align-content: flex-start;
+    }
 
-.central-produtos {
-    margin-top: 20px;
-    background-color: var(--cor-moldura);
-    width: 100%;
-    max-width: 2000px;
-    min-height: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 40px 30px;
-    align-content: flex-start;
+    .card-produto-1 {
+        margin-top: 20px;
+        background-color: var(--cor-principal);
+        width: 282px;
+        min-height: 220px;
+        padding: 15px 15px 20px;
+        border-radius: 28px;
+        font-family: var(--fonte-principal);
+        font-size: 40px;
+    }
 
-}
+    .card-produto-1 p {
+        margin: 0;
+        margin-top: 20px;
+        line-height: 0.9;
+        color: #000;
+    }
 
-.card-produto-1 {
-    margin-top: 20px;
-    background-color: var(--cor-principal);
-    width: 282px;
-    min-height: 220px;
-    padding: 15px 15px 20px;
-    border-radius: 28px;
-    font-family: var(--fonte-principal);
-    font-size: 40px;
-}
+    .card-produto-1 .preco-card {
+        margin-top: 10px;
+        width: 200px;
+    }
 
-.card-produto-1 p {
-    margin: 0;
-    margin-top: 20px;
-    line-height: 0.9;
-    color: #000;
-}
+    .imagem-card {
+        display: block;
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        flex-shrink: 0;
+        background-color: #d9d9d9;
+        border-radius: 18px;
+        margin: 0 0 5px 0;
+    }
 
-.card-produto-1 .preco-card {
-    margin-top: 10px;
-    width: 200px;
-}
+    .curtir-coracao {
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+    }
 
-.imagem-card {
-    display: block;
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    flex-shrink: 0;
-    background-color: #D9D9D9;
-    border-radius: 18px;
-    margin: 0 0 5px 0;
-}
+    .preco-curtir {
+        margin-top: 3px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        gap: 10px;
+    }
 
+    .card-titulo-card {}
 
-.curtir-coracao {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
+    .imagem {
+        width: 100%;
+        height: 220px;
+    }
 
+    .formulario {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 150;
+        margin-left: 25%;
+        padding: 15vh;
+        justify-items: center;
+        align-items: center;
+        border-radius: 25px;
+        background-color: white;
+        border-radius: 15px;
+        height: 70%;
+        input, select, textarea {
+            background-color: #eeeeee;
+            border-radius: 18px;
+            width: 600px;
+            padding: 10px;
+            margin: 10px;
+            align-items: left;
+            height: 40px;
+        }
 
-}
+        textarea::placeholder {
+            color: #000;
+        }
 
-.preco-curtir {
-    margin-top: 3px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    gap: 10px;
-}
+        input::placeholder {
+            color: #000;
+        }
 
+        fieldset {
+            border: none;
+            align-items: center;
+            margin-right: 300px;
+            .comente {
+                background-color: #ffa30e;
+                color: white;
+                font-weight: 800;
+                width: 200px;
+                margin: 10px;
+                height: 70%;
+            }
 
-.card-titulo-card {}
-
-.imagem {
-    width: 100%;
-    height: 220px;
+            .reset {
+                background-color: #ffa30e;
+                color: white;
+                font-weight: 800;
+                width: 200px;
+                margin: 10px;
+                height: 70%;
+            }
+        }
+    }
 }
