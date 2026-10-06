@@ -162,7 +162,7 @@ main {
         gap: 10px;
     }
 
-    .card-titulo-card {}
+    /* .card-titulo-card {} */
 
     .imagem {
         width: 100%;
@@ -173,7 +173,7 @@ main {
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         font-size: 24px;
         font-weight: 150;
-        margin-left: 25%;
+        margin-left: 24%;
         padding: 15vh;
         justify-items: center;
         align-items: center;
@@ -202,7 +202,7 @@ main {
         fieldset {
             border: none;
             align-items: center;
-            margin-right: 300px;
+            margin-right: 310px;
             .comente {
                 background-color: #ffa30e;
                 color: white;
