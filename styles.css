@@ -30,9 +30,11 @@ header {
         margin-bottom: 20px;
 
         ol {
+            
             list-style: none;
 
             li {
+                margin-right: 30px;
                 display: inline-block;
             }
 
