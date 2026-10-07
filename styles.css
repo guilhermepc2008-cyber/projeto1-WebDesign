@@ -27,7 +27,7 @@ header {
         margin-bottom: 20px;
 
         ol {
-            
+
             list-style: none;
 
             li {
@@ -181,7 +181,10 @@ main {
         background-color: white;
         border-radius: 15px;
         height: 70%;
-        input, select, textarea {
+
+        input,
+        select,
+        textarea {
             background-color: #eeeeee;
             border-radius: 18px;
             width: 600px;
@@ -203,6 +206,7 @@ main {
             border: none;
             align-items: center;
             margin-right: 310px;
+
             .comente {
                 background-color: #ffa30e;
                 color: white;
@@ -220,6 +224,49 @@ main {
                 margin: 10px;
                 height: 70%;
             }
+        }
+    }
+
+    .sobre-nos {
+        justify-items: justify;
+        .sobrenosimg {
+            img {
+                border-radius: 10px;
+                margin-left: 8%;
+                margin-top: 5%;
+            }
+        }
+
+        .sobrenostxt {
+            text-size-adjust: 200 400;
+            margin-left: 55%;
+            h2 {
+                text-align: left;
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-size: 20px;
+                font-weight: 150;
+                color: var(--cor-principal);
+
+            }
+
+            h3 {
+                text-align: right;
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-size: 18px;
+                font-weight: 130;
+                color: var(--cor-principal);
+                text-decoration-style: none;
+                width: 500px;
+            }
+
+            p {
+                text-align: justify;
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-size: 16px;
+                font-weight: 100;
+                width: 500px;
+            }
+
         }
     }
 }
