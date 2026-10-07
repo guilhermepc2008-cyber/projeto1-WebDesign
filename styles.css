@@ -171,7 +171,7 @@ main {
 
     .formulario {
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-        font-size: 24px;
+        font-size: 54px;
         font-weight: 150;
         margin-left: 24%;
         padding: 15vh;
@@ -185,13 +185,16 @@ main {
         input,
         select,
         textarea {
+            font-size: 35px;
             background-color: #eeeeee;
             border-radius: 18px;
-            width: 600px;
-            padding: 10px;
+            width: 800px;
             margin: 10px;
             align-items: left;
             height: 40px;
+            padding: 30px;
+            
+            
         }
 
         textarea::placeholder {
@@ -205,24 +208,19 @@ main {
         fieldset {
             border: none;
             align-items: center;
-            margin-right: 310px;
+            margin-right: 550px;
+        
 
-            .comente {
-                background-color: #ffa30e;
+            .bt-formulario {
+                background-color: var(--cor-principal);
+                padding: 15px;
+                padding-left: 40px;
+                padding-right: 40px;
+                border-radius: 10px;
+                font-family: var(--fonte-principal);
                 color: white;
-                font-weight: 800;
-                width: 200px;
-                margin: 10px;
-                height: 70%;
-            }
+                font-size: 25px;
 
-            .reset {
-                background-color: #ffa30e;
-                color: white;
-                font-weight: 800;
-                width: 200px;
-                margin: 10px;
-                height: 70%;
             }
         }
     }
