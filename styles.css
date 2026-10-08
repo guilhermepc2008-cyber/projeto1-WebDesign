@@ -301,14 +301,13 @@ main {
     width: 500px;
 }
 
-/* ===== Card clicavel (apenas CABO DE CARREGADOR) ===== */
+
 a.card-produto-1 {
     text-decoration: none;
-    color: inherit;
     cursor: pointer;
 }
 
-/* ===== Pagina de detalhe do produto ===== */
+
 .detalhe-produto {
     display: flex;
     flex-wrap: wrap;
@@ -366,4 +365,17 @@ a.card-produto-1 {
     padding: 8px 30px;
     border-radius: 10px;
     text-decoration: none;
+}
+
+.comprar{
+    margin-left: 10px;
+    display: inline-block;
+    background-color: rgb(33, 179, 33);
+    color: white;
+    font-family: var(--fonte-principal);
+    font-size: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px 50px 7px 40px;
+    
 }
