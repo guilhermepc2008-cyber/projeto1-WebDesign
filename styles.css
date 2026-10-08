@@ -379,3 +379,28 @@ a.card-produto-1 {
     padding: 15px 50px 7px 40px;
     
 }
+
+
+.detalhe-quantidade {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.detalhe-quantidade label {
+    font-family: var(--fonte-principal);
+    font-size: 40px;
+    color: #000;
+}
+
+.detalhe-quantidade input {
+    width: 120px;
+    min-height: 60px;
+    padding: 0 20px;
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+    background-color: #ffffff;
+    border-radius: 18px;
+}
