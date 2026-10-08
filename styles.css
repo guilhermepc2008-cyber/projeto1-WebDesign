@@ -74,10 +74,6 @@ header {
                     background-color: var(--cor-secundaria);
                 }
 
-                a:hover {
-                    filter: brightness(0.9);
-                }
-
                 a[aria-current="page"] {
                     background-color: var(--cor-principal);
                     color: var(--cor-cabecalho);
@@ -310,12 +306,6 @@ a.card-produto-1 {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
-    transition: filter 0.2s ease, transform 0.2s ease;
-}
-
-a.card-produto-1:hover {
-    filter: brightness(0.95);
-    transform: scale(1.02);
 }
 
 /* ===== Pagina de detalhe do produto ===== */
@@ -376,8 +366,4 @@ a.card-produto-1:hover {
     padding: 8px 30px;
     border-radius: 10px;
     text-decoration: none;
-}
-
-.detalhe-voltar:hover {
-    filter: brightness(0.9);
 }
