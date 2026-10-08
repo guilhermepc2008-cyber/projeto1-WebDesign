@@ -361,7 +361,7 @@ a.card-produto-1 {
     background-color: var(--cor-principal);
     color: var(--cor-cabecalho);
     font-family: var(--fonte-principal);
-    font-size: 30px;
+    font-size: 35px;
     padding: 8px 30px;
     border-radius: 10px;
     text-decoration: none;
@@ -395,9 +395,9 @@ a.card-produto-1 {
 }
 
 .detalhe-quantidade input {
-    width: 120px;
+    width: 80px;
     min-height: 60px;
-    padding: 0 20px;
+    padding: 10px;
     font-size: 25px;
     text-align: center;
     color: #000;
