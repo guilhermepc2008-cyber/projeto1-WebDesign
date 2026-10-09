@@ -470,3 +470,52 @@ a.card-produto-1 {
     align-items: center;
     margin-bottom: 20px;
 }
+
+/* ===== Tabela de especificacoes (CELULAR PRO) ===== */
+.tabela-especificacoes {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    color: #000;
+}
+
+.tabela-especificacoes caption {
+    font-family: var(--fonte-principal);
+    font-size: 40px;
+    color: #000;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.tabela-especificacoes th,
+.tabela-especificacoes td {
+    padding: 10px 15px;
+    border: 1px solid #d9d9d9;
+    text-align: left;
+}
+
+.tabela-especificacoes thead th {
+    background-color: var(--cor-cabecalho);
+    color: #ffffff;
+    font-family: var(--fonte-principal);
+    font-size: 25px;
+    border-color: var(--cor-cabecalho);
+}
+
+.tabela-especificacoes tbody th {
+    background-color: #eeeeee;
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+}
+
+.tabela-especificacoes tfoot th,
+.tabela-especificacoes tfoot td {
+    background-color: var(--cor-principal);
+    color: var(--cor-cabecalho);
+    font-family: var(--fonte-principal);
+    font-size: 25px;
+    border-color: var(--cor-principal);
+}
