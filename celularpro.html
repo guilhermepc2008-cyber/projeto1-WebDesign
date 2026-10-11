@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CELULAR PRO | INFOMIX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jomhuria&family=Mitr:wght@200;300;400;500;600;700&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;1,200;0,300;1,300;0,400;1,400;0,500;1,500;0,600;1,600;0,700;1,700;0,800;1,800;0,900;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jomhuria&family=Mitr:wght@200;300;400;500;600;700&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;1,200;0,300;1,300;0,400;1,400;0,500;1,500;0,600;1,600;0,700;1,700;0,800;1,800;0,900;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">PRODUTOS</h1>
+        <nav>
+            <ol>
+                <li><a href="produto.html" aria-current="page">PRODUTOS</a></li>
+                <li><a href="contato.html">CONTATO </a></li>
+                <li><a href="sobre.html"> SOBRE</a></li>
+            </ol>
+        </nav>
+        <div class="categoria">
+            <ul>
+                <li><a href="eletronicos.html">ELETRÔNICOS</a></li>
+                <li><a href="perfumes.html">PERFUMES</a></li>
+                <li><a href="celulares.html" aria-current="page">CELULARES</a></li>
+                <li><a href="semi.html">SEMI-JOIAS</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="detalhe-produto-celular">
+            <img class="detalhe-imagem" src="img/celular/celularpro.webp" alt="Celular Pro">
+            <div class="detalhe-info">
+                <h2>CELULAR PRO</h2>
+                <p class="detalhe-preco">R$1.999,00</p>
+                <p class="detalhe-descricao">
+                    Smartphone de alto desempenho com tela ampla, câmera de alta resolução e bateria de longa duração.
+                    Escolha a capacidade de armazenamento interno e a memória RAM ideal para o seu uso.
+                    Com desempenho rápido para jogos, multimídia e trabalho, todos os dias.
+                </p>
+                <table class="tabela-especificacoes">
+                    <caption>Ficha técnica</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Especificação</th>
+                            <th scope="col">Detalhe</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Tela</th>
+                            <td>6.67" AMOLED com 120 Hz</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Armazenamento</th>
+                            <td>128 GB ou 256 GB</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Memória RAM</th>
+                            <td>8 GB ou 16 GB</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Câmera</th>
+                            <td>50 MP + 8 MP</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Bateria</th>
+                            <td>5000 mAh</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Conectividade</th>
+                            <td>5G, Wi-Fi e Bluetooth</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row">Preço a partir de</th>
+                            <td>R$1.999,00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="detalhe-seletor">
+                    <label for="armazenamento">Armazenamento:</label>
+                    <select id="armazenamento" name="armazenamento">
+                        <option value="128">128 GB</option>
+                        <option value="256">256 GB</option>
+                    </select>
+                </div>
+                <div class="detalhe-seletor">
+                    <label for="memoria">Memória RAM:</label>
+                    <select id="memoria" name="memoria">
+                        <option value="8">8 GB</option>
+                        <option value="16">16 GB</option>
+                    </select>
+                </div>
+                <div class="detalhe-quantidade">
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" id="quantidade" name="quantidade" min="1" max="99" value="1">
+                </div>
+                <a class="detalhe-voltar" href="produto.html">&larr; Voltar para produtos</a>
+                <a class="comprar">COMPRAR</a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
