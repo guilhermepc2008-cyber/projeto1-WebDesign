@@ -19,8 +19,7 @@
 }
 
 header {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     background-color: var(--cor-cabecalho);
     font-family: var(--fonte-principal);
     color: var(--cor-moldura);
