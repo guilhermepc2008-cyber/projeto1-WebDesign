@@ -105,7 +105,6 @@ body {
         margin-top: auto;
             font-family: var(--fonte-secundaria);
             background-color: var(--cor-cabecalho);
-            margin: none;
             p {
                 color: var(--cor-moldura);
                 margin: 10px;
@@ -277,7 +276,7 @@ main {
             margin-top: 90px;
             h2 {
                 text-align: left;
-                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-family: var(--fonte-secundaria);
                 font-size: 45px;
                 font-weight: 150;
                 color: var(--cor-principal);
@@ -286,7 +285,7 @@ main {
 
             h3 {
                 text-align: right;
-                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-family: var(--fonte-secundaria);
                 font-size: 30px;
                 font-weight: 130;
                 color: var(--cor-principal);
@@ -297,7 +296,7 @@ main {
 
             p {
                 text-align: justify;
-                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-family: var(--fonte-secundaria);
                 font-size: 23px;
                 font-weight: 100;
                 width: auto;
@@ -309,7 +308,7 @@ main {
 
 .sobre-nos .sobrenostxt h2 {
     text-align: left;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 30px;
     font-weight: 150;
     color: var(--cor-principal);
@@ -317,7 +316,7 @@ main {
 
 .sobre-nos .sobrenostxt h3 {
     text-align: right;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 25px;
     font-weight: 130;
     color: var(--cor-principal);
@@ -497,7 +496,7 @@ a.card-produto-1 {
 
 
 .detalhe-produto-anel{
-      margin-top: 20px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
@@ -558,4 +557,27 @@ a.card-produto-1 {
     font-family: var(--fonte-principal);
     font-size: 45px;
     border-color: var(--cor-principal);
+}
+
+.rodape a {
+    display: inline-block;
+    margin: 0 10px 15px 10px;
+    padding: 8px 18px;
+    font-family: var(--fonte-secundaria);
+    font-size: 14px;
+    color: var(--cor-moldura);
+    text-decoration: none;
+    border: 2px solid var(--cor-principal);
+    border-radius: 10px;
+}
+
+.rodape a:hover,
+.rodape a:focus {
+    color: var(--cor-cabecalho);
+    background-color: var(--cor-principal);
+}
+
+.rodape a:focus-visible {
+    outline: 3px solid var(--cor-moldura);
+    outline-offset: 2px;
 }
