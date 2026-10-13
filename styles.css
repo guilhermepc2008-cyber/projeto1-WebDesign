@@ -271,12 +271,11 @@ main {
             vertical-align: top;
             margin-left: 5%;
             width: 50%;
-            font-size: 16px;
             margin-top: 90px;
             h2 {
                 text-align: left;
                 font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-                font-size: 20px;
+                font-size: 45px;
                 font-weight: 150;
                 color: var(--cor-principal);
                 margin-bottom: 10px;
@@ -285,17 +284,18 @@ main {
             h3 {
                 text-align: right;
                 font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-                font-size: 18px;
+                font-size: 30px;
                 font-weight: 130;
                 color: var(--cor-principal);
                 text-decoration-style: none;
                 width: auto;
+            
             }
 
             p {
                 text-align: justify;
                 font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-                font-size: 16px;
+                font-size: 23px;
                 font-weight: 100;
                 width: auto;
             }
