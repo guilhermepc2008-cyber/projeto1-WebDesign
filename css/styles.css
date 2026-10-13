@@ -99,19 +99,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    .rodape {
-        width: 100%;
-        bottom: 0;
-        margin-top: auto;
-            font-family: var(--fonte-secundaria);
-            background-color: var(--cor-cabecalho);
-            p {
-                color: var(--cor-moldura);
-                margin: 10px;
-                padding: 10px;
-                font-size: 14px;
-            }
-        }
+    
 }
 
 main {
@@ -533,12 +521,26 @@ a.card-produto-1 {
     border-color: var(--cor-principal);
 }
 
+.rodape {
+        width: 100%;
+        bottom: 0;
+            font-family: var(--fonte-secundaria);
+            background-color: var(--cor-cabecalho);
+            p {
+                color: var(--cor-moldura);
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+        }
+
+
 .rodape a {
     display: inline-block;
     margin: 0 10px 15px 10px;
     padding: 8px 18px;
     font-family: var(--fonte-secundaria);
-    font-size: 14px;
+    font-size: 20px;
     color: var(--cor-moldura);
     text-decoration: none;
     border: 2px solid var(--cor-principal);
