@@ -78,7 +78,7 @@ header {
                     background-color: var(--cor-principal);
                     color: var(--cor-cabecalho);
                 }
-            }
+                      }
 
             li:last-child {
                 margin-right: 0;
@@ -109,12 +109,8 @@ main {
     align-items: center;
 
     .central-produtos {
-        margin-top: 20px;
-        margin-left: 150px;
+        margin-left: 150px; 
         background-color: var(--cor-moldura);
-        width: 100%;
-        max-width: 2000px;
-        min-height: 500px;
         padding: 40px 30px;
     }
 
@@ -134,7 +130,7 @@ main {
     .card-produto-1 p {
         margin: 0;
         margin-top: 20px;
-        line-height: 0.9;
+        line-height: 0.5;
         color: var(--cor-texto);
     }
 
@@ -328,7 +324,7 @@ a.card-produto-1 {
 
 .detalhe-info h2 {
     font-family: var(--fonte-principal);
-    font-size: 70px;
+    font-size: 100px;
     color: var(--cor-texto);
     margin-bottom: 10px;
 }
@@ -406,7 +402,7 @@ a.card-produto-1 {
 
 .detalhe-seletor label {
     display: inline-block;
-    vertical-align: middle;
+    
     margin-right: 15px;
     font-family: var(--fonte-principal);
     font-size: 40px;
@@ -415,7 +411,6 @@ a.card-produto-1 {
 
 .detalhe-seletor select {
     display: inline-block;
-    vertical-align: middle;
     width: 160px;
     min-height: 60px;
     padding: 0 20px;
@@ -481,7 +476,7 @@ a.card-produto-1 {
 
 .tabela-especificacoes caption {
     font-family: var(--fonte-principal);
-    font-size: 40px;
+    font-size: 50px;
     color: var(--cor-texto);
     text-align: left;
     padding-bottom: 10px;
