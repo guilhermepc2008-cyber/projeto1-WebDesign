@@ -1,8 +1,8 @@
 :root {
     --cor-moldura: #ffffff;
     --cor-principal: #ffa30e;
-    --cor-cabecalho: #142d9d;
-    --cor-secundaria: #142d9d;
+    --cor-cabecalho: #00297B;
+    --cor-secundaria: #00297B;
     --cor-texto: #000000;
     --cor-texto-suave: #333333;
     --cor-fundo: #eeeeee;
@@ -20,6 +20,7 @@
 
 header {
     display: inline-block;
+    position: relative;
     background-color: var(--cor-cabecalho);
     font-family: var(--fonte-principal);
     color: var(--cor-moldura);
@@ -175,8 +176,7 @@ main {
 
     .formulario {
 
-        padding: 40px;
-        border-radius: 15px;       
+        padding: 40px;    
         width: 55%;
         max-width: 800px;
 
@@ -226,9 +226,8 @@ main {
     .bt-formulario {
      
         background-color: var(--cor-principal);
-        padding: 8px;
+        padding: 8px 80px;
         padding-left: 80px;
-        padding-right: 80px;
         border-radius: 10px;
         font-family: var(--fonte-principal);
         color: var(--cor-cabecalho);
@@ -549,4 +548,22 @@ a.card-produto-1 {
     color: var(--cor-cabecalho);
     background-color: var(--cor-principal);
 }
+
+.nome-loja {
+    margin-top: 22px;
+    position: absolute;
+    top: 34px;
+    right: 30px;
+    font-family: var(--fonte-principal);
+    font-size: 195px;
+    line-height: 0.5;
+    color: var(--cor-principal);
+}
+
+.nome-loja span {
+    
+    color: var(--cor-moldura);
+}
+
+
 
